@@ -18,10 +18,10 @@ This project contains a simple ERC20-like token smart contract called **MyToken*
 ## Installation and Setup
 1. Clone the repository to your local machine:
    ```bash
-   git clone https://github.com/17beep/Metcrafters/blob/main/beepsToken.sol
+  https://github.com/17beep/solidity/blob/main/beepsToken.sol
    ```
 2. Open the project in your favorite code editor.
-
+I would recommend using remix ethereum IDE.
 
 ## Usage
 
@@ -43,16 +43,6 @@ function burn(address _addressFrom, uint _value) public
 - **_addressFrom**: The address from which tokens will be destroyed.
 - **_value**: The number of tokens to burn.
 
-### Example Interaction
-1. **Mint 5000 tokens** to your wallet:
-   ```bash
-   MyToken.mint("0xYourWalletAddress", 100);
-   ```
-
-2. **Burn 3000 tokens** from your wallet:
-   ```bash
-   MyToken.burn("0xYourWalletAddress", 50);
-   ```
 
 ## License
 This project is licensed under the MIT License. See the `LICENSE` file for more details.
